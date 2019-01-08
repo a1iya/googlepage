@@ -1,0 +1,41 @@
+header {
+display: flex;
+justify-content: flex-end;
+}
+li{
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-content: flex-end; 
+} 
+#carrelogo {
+	height: 30px;
+	width: 30px;
+}
+#Connexion {
+	color: #fff;
+	font-weight: bold;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+}
+#center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#bouton{
+	align-self: center;
+}
+#googlelogo {
+    height: 92px;
+    width: 272px;
+    display: flex;
+    align-self: center;
+}
+#searchbar {
+    align-self: center;
+}
+footer{
+	display: flex;
+	justify-content: flex-end;
+}
